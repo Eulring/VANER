@@ -20,9 +20,9 @@ eva:
 
 unikg
 
-CUDA_VISIBLE_DEVICES=0 python unllama_eval_vaner.py ncbi vaner_unidev_kgmix2/checkpoint-1428820
+CUDA_VISIBLE_DEVICES=0 python unllama_eval_vaner.py ncbi vaner_unidev_kgmix2/checkpoint-number
 
 singlekg
 
-CUDA_VISIBLE_DEVICES=0 python unllama_eval_vaner.py ncbi vaner_ncbi/checkpoint-1428820
+CUDA_VISIBLE_DEVICES=0 python unllama_eval_vaner.py ncbi vaner_ncbi/checkpoint-number
 
