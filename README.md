@@ -2,7 +2,7 @@
 
 
 
-train:
+# train:
 
 unikg
 
@@ -15,7 +15,7 @@ CUDA_VISIBLE_DEVICES=0 python unllama_train_vaner.py ncbi 128 mt vaner
 
 
 
-eva:
+# eva:
 
 unikg
 
